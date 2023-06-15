@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <>
+     {/* run the port on "http://localhost:3000/" */}
       <Main/>
       <Footer/>
     </>
