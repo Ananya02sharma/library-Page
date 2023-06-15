@@ -6,14 +6,8 @@ import Main from './Components/Main';
 import Footer from './Components/Footer/Footer';
 // import './index.css';
 import App from './App';
-// import reportWebVitals from './reportWebVitals';
-// const root = createRoot(document.getElementById('root'));
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+
+ {/* run the port on "http://localhost:3000/" */}
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Auth0Provider
       domain="dev-r5itixwgr3xiwf7g.us.auth0.com"
@@ -21,11 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       
         redirectUri = {window.location.origin}>
           
-          {/* <Main> */}
+      
           
           <App />
-          {/* <Footer/>
-          </Main> */}
+        
       
     
       
